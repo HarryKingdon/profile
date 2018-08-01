@@ -1,0 +1,148 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Gloria Hallelujah', sans-serif;
+  color: rgb(5, 5, 5);
+  line-height: 1;
+  background-image: url("images/texture.jpg");
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4 {
+  font-size: 38;
+  line-height: 0.8;
+  color: #A50104;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20
+}
+
+h3 {
+  font-size: 20;
+  line-height: 0.2;
+  text-align: left;
+}
+
+h4 {
+  font-size: 15;
+  line-height: 0.2;
+  text-align: left;
+}
+
+p {
+  font-size: 13;
+  text-align: left;
+  line-height: 1.5
+}
+
+a {
+  color: #FCBA04;
+  text-decoration: none
+}
+
+a:hover {
+  color: #250001;
+}
+
+div {
+  margin: 10px;
+  border: 2px solid #B5B5B5;
+  background-color: #F3F3F3;
+  padding: 30px 50px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgb(150 150 150);
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.image-small {
+  max-height: 210px;
+  max-width: 170px;
+}
+
+.image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-round {
+  border-radius: 50%
+}
+
+.image-rounded {
+  border-radius: 10px
+}
+
+.image-border {
+  border: 1px solid #B5B5B5;
+  box-shadow: 1px 1px 1px rgb(150 150 150)
+}
+
+.text-center {
+  text-align: center;
+}
+
+.shallow-padding {
+  padding: 10px;
+}
+
+#harry-photo {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+  border: 1px solid #B5B5B5;
+  box-shadow: 1px 1px 3px rgb(150 150 150)
+}
+
+.text-squeezed {
+  padding: 30px 150px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0;
+}
+
+.text-left-padding {
+  padding-left: 10px;
+}
+
+.margin-vertical {
+  margin: 10px;
+}
+
+.padding-thick {
+  padding: 30px 10px;
+}
