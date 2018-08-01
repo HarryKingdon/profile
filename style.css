@@ -51,7 +51,8 @@ h4 {
 p {
   font-size: 13;
   text-align: left;
-  line-height: 1.5
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
